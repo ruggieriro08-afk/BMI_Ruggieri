@@ -1,4 +1,5 @@
 <?php
+<link rel="stylesheet" href="style.css">
 
 $nome = $_POST["nome"];
 $peso = $_POST["peso"];
