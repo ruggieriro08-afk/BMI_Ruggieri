@@ -10,15 +10,14 @@
     <h2>Calcolatore BMI</h2>
     <main>
         <form class="card" action="index.php" method="post">
-            <label id="nome">Nome</label>
-            <input type="text" placeholder="Inserisci il tuo nome"><br>
-            <label id="peso">Peso</label>
-            <input type="number" placeholder="Inserisci il tuo peso"><br>
-            <label id="altezza">Altezza</label>
-            <input type="number" placeholder="Inserisci la tua altezza"><br>
-            <button>Calcola</button>
+            <label>Nome</label>
+            <input type="text" name="nome" placeholder="Inserisci il tuo nome">
+            <label>Peso (kg)</label>
+            <input type="number" name="peso" placeholder="Inserisci il tuo peso">
+            <label>Altezza (cm)</label>
+            <input type="number" name="altezza" placeholder="Inserisci la tua altezza">
+            <button type="submit">Calcola</button>
         </form>
     </main>
-    
 </body>
 </html>
