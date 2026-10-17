@@ -80,6 +80,8 @@ main {
 }
 
 
+/* CARD RISULTATO */
+
 .card h3 {
     text-align: center;
     font-size: 24px;
@@ -108,6 +110,8 @@ main {
 }
 
 
+/* SOTTOPESO */
+
 .card.sottopeso {
     background-color: #e3eef9;
     border: 3px solid #2f6fb3;
@@ -118,6 +122,8 @@ main {
     color: #2f6fb3;
 }
 
+
+/* NORMOPESO */
 
 .card.normopeso {
     background-color: #e3f4e6;
@@ -130,6 +136,8 @@ main {
 }
 
 
+/* SOVRAPPESO */
+
 .card.sovrappeso {
     background-color: #fcebd7;
     border: 3px solid #9a4f06;
@@ -141,6 +149,8 @@ main {
 }
 
 
+/* OBESITÀ */
+
 .card.obesita {
     background-color: #fbe2e2;
     border: 3px solid #b32d2d;
@@ -151,6 +161,8 @@ main {
     color: #b32d2d;
 }
 
+
+/* LINK */
 
 main a {
     margin-top: 28px;
