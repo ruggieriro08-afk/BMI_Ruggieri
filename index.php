@@ -66,7 +66,7 @@ if ($bmi < 18.5) {
 
         </div>
 
-        <a href="form.html">Calcola di nuovo</a>
+        <a href="index.html">Calcola di nuovo</a>
 
     </main>
 
