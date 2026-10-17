@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f1f3f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #18202a;
+}
+
+/* TITOLO */
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 130px;
+    margin-bottom: 38px;
+}
+
+
+/* CONTENITORE */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* CARD */
+
+.card {
+    width: 400px;
+    background-color: white;
+    padding: 28px;
+    border-radius: 13px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+
+/* FORM */
+
+.card label {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.card input {
+    width: 100%;
+    height: 50px;
+
+    padding: 0 14px;
+    margin-bottom: 16px;
+
+    border: 1px solid #cbd1d8;
+    border-radius: 9px;
+
+    font-size: 16px;
+}
+
+.card button {
+    width: 100%;
+    height: 50px;
+
+    margin-top: 2px;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: #20242a;
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.card h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.dati {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.bmi {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.categoria {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.card.sottopeso {
+    background-color: #e3eef9;
+    border: 3px solid #2f6fb3;
+    width: 400px;
+}
+
+.card.sottopeso .categoria {
+    color: #2f6fb3;
+}
+
+
+.card.normopeso {
+    background-color: #e3f4e6;
+    border: 3px solid #256d34;
+    width: 400px;
+}
+
+.card.normopeso .categoria {
+    color: #256d34;
+}
+
+
+.card.sovrappeso {
+    background-color: #fcebd7;
+    border: 3px solid #9a4f06;
+    width: 400px;
+}
+
+.card.sovrappeso .categoria {
+    color: #9a4f06;
+}
+
+
+.card.obesita {
+    background-color: #fbe2e2;
+    border: 3px solid #b32d2d;
+    width: 400px;
+}
+
+.card.obesita .categoria {
+    color: #b32d2d;
+}
+
+
+main a {
+    margin-top: 28px;
+    color: #222;
+    font-size: 16px;
+}
